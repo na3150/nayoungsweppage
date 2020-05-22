@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>성나영 홈페이지</title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet"> 
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: rgb(2, 0, 2);
+        text-decoration: navajowhite;
+    }
+
+    a:hover {
+        color:rgb(193, 213, 243);
+    }
+
+    a:visited {color:rgb(245, 206, 212);}
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+</style>
+</head>
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#interests">Photos</a> <br>
+                <a href="#edu">education</a> <br>
+                <a href="#works">future;dream</a> <br>
+                <a href="#con">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>성나영</b>
+            <h1 class="xxxlarge colorname" id="interests"><b>Photos</b></h1>
+            <hr style="width:75%; border:5px solid rgb(245, 207, 207); float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="내사진.jpg" style="width:100%" alt="내사진">
+                <img src="우리엄마.jpg" style="width: 80%" alt="나의엄마">
+                <img src="내가 그린 성신여대화학과 로고.jpg" style="width:100%" alt="내가그린로고">
+            </div>
+
+            <div class="half">
+                <img src="나의학교.jpg" style="width:100%" alt="나의학교">
+                <img src="마카롱.jpg" style="width:100%" alt="마카롱">
+                <img src="커피사진.jpg" style="width:100%" alt="커피사진">
+            </div>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>Introduce</b></h1>
+            <hr style="width:75%; border:5px solid rgb(245, 207, 207); float: left; clear: both; "> <br>
+            <p>저는 이런 사람입니다.</p>
+            <p>2000년4월1일 만우절에 태어났습니다. 2남매 중 둘째입니다. 평생을 일산에서 살아왔고 일산을 정말 좋아합니다. </p>
+            <p>좋아하는 사람과 맛있는 음식을 먹으면서 이야기를 나누는 것을 좋아합니다. 누군가와 함께 있을 때 여럿이서 있는 것 보다는 2명이서 있는 것을 좋아합니다.</p>
+            <p>물보다 커피를 좋아하고 아이스 라떼를 자주 마시며, 디저트를 좋아합니다. 밖의 이곳저곳을 다니는 것을 좋아하는 외향적인 성격입니다.</p>
+            <p>집에 있을 때는 주로 유튜브,넷플릭스,만화를 보면서 시간을 보냅니다. 어렸을 때 부터 만화를 좋아해 일본어를 좋아하게 되었고 일본어 공부를 목표로 하고 있습니다.</p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>Future;Dream</b></h1>
+            <hr style="width:75%; border:5px solid rgb(245, 207, 207); float: left; clear: both; "> <br>
+        
+            <p>제 삶의 목표는 이렇습니다.</p>
+            <p> "절대 어제를 후회하지 마라. 인생은 오늘의 나 안에 있고 내일은 스스로 만드는 것이다."</p>
+            <p> 저는 현재 화학과 컴퓨터를 공부하고 있습니다. 제가 무엇을 하고 싶은지는 아직 확고하지 않지만 이후에 제가 공부했던 것들을 맘껏 활용하고 싶습니다. </p>
+            <p> 일을 하면서 취미생활도 하는 여유를 즐길 수 있는 삶을 살고 싶습니다. </p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:75%; border:5px solid rgb(245, 207, 207); float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-5031-3150</li>
+                <li><a href="mailto:na3150@gmail.com">na3150@gmail.com</a></li> <br>
+    
+                
+                <a href="https://www.youtube.com/channel/UCTGo2UOqZ1t4c7vmhEdM8KA" class="fa fa-youtube"></a>
+                <a href="https://instagram.com/_naa_young_" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 성나영 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
